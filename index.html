@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Insect Catch</title>
+</head>
+<body>
+  
+  <div class="screen" id="start-screen">
+    <h1>What is your "favourite" insect?</h1>
+    <ul class="insects-list">
+        <li>
+            <button class="choose-insect-btn" data-insect="spider">
+                <p>Spider</p>
+                <img src="https://www.pngplay.com/wp-content/uploads/8/Black-Spider-PNG-HD-Quality.png" alt="spider">
+            </button>
+        </li>
+
+        <li>
+            <button class="choose-insect-btn" data-insect="fly">
+                <p>Fly</p>
+                <img src="https://i.pinimg.com/originals/47/a4/4b/47a44bc5bedc4cae82f9218bfe098024.png" alt="fly">
+            </button>
+        </li>
+
+        <li>
+            <button class="choose-insect-btn" data-insect="mosquito">
+                <p>Mosquito</p>
+                <img src="https://i.pinimg.com/originals/3b/f6/55/3bf655e1df2fcad6a7e104bb75058482.png" alt="mosquito">
+            </button>
+        </li>
+
+        <li>
+            <button class="choose-insect-btn" data-insect="roach">
+                <p>Roach</p>
+                <img src="https://www.pngmart.com/files/22/Roach-PNG-Picture.png" alt="roach">
+            </button>
+        </li>
+    </ul>
+    <button class="btn" id="start-btn">Play Game</button>
+</div>
+
+<div class="screen" id="game-screen">
+  <h3 id="time" class="time">Time: 00:00</h3>
+  <h3 id="score" class="score">Score: 0</h3>
+  <div id="message" class="message">
+    Are you annoyed yet? <br>
+    You are playing impossible game!!!
+    <button id="continue-btn" class="btn">Continue</button>
+    <button id="restart-btn" class="btn">Start Again</button>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
