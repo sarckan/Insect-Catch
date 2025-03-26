@@ -24,10 +24,21 @@ A fun and interactive web-based game where players catch insects to increase the
 - CSS3
 - JavaScript (Vanilla)
 
+## Screenshots
+
+Here is a screenshot of the application:
+
+![GitHub Profiles Viewer Screenshot](images/screenshot.png)
+![GitHub Profiles Viewer Screenshot](images/img1.png);
+![GitHub Profiles Viewer Screenshot](images/img2.png);
+![GitHub Profiles Viewer Screenshot](images/img3.png);
+![GitHub Profiles Viewer Screenshot](images/img4.png);
+![GitHub Profiles Viewer Screenshot](images/img5.png);
+![GitHub Profiles Viewer Screenshot](images/img5.png);
+
 ## Setup
 
 1. Clone the repository:
-
 ```bash
 git clone https://github.com/sarckan/Insect-Catch.git
 ```
@@ -42,12 +53,15 @@ insect-catch/
 ├── style.css
 ├── script.js
 └── images/
-    ├── fly.png
-    ├── mosquito.png
-    ├── spider.png
-    └── roach.png
+    ├── img1.png
+    ├── img2.png
+    ├── img3.png
+    └── img4.png
+    ├── img5.png
+    └── img6.png
+    
 ```
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the MIT License. 
